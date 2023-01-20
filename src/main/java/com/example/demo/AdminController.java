@@ -17,7 +17,7 @@ public class AdminController {
 	@Autowired
 	AdminDao dao;
 	@ResponseBody
-	@RequestMapping("/")
+	@RequestMapping("/adminpage")
 	public ModelAndView displaypage(HttpServletRequest request,HttpServletResponse response) {
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("adminlogin.jsp");
