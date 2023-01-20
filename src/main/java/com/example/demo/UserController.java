@@ -18,7 +18,7 @@ public class UserController {
 	UserDao dao;
 	
 	
-	@RequestMapping("/")
+	@RequestMapping("/userpage")
 	public ModelAndView displaypage(HttpServletRequest request,HttpServletResponse response) {
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("userlogin.jsp");
